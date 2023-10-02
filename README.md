@@ -1,71 +1,34 @@
-# Getting Started with Create React App
+# Application de Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Cette application vous permet de créer, publier et gérer des articles de blog. 
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+- Tableau de bord d'administration : Accédez à un tableau de bord  pour gérer les articles et les utilisateurs. Seuls les administrateurs ont accès à cette fonctionnalité.
 
-### `npm start`
+- Publication d'articles : Créez et publiez facilement de nouveaux articles sur une variété de sujets. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ ## Accès
 
-### `npm test`
+- Tableau de bord d'administration : Seuls les administrateurs ont accès au tableau de bord. Vous devez vous connecter en tant qu'administrateur pour l'utiliser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Page du Blog : La page principale du blog est accessible à tous les visiteurs, qu'ils soient connectés ou non.
 
-### `npm run build`
+- Ajout de Post (Publication d'Articles) : Vous devez être connecté pour ajouter un nouvel article au blog.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Comment commencer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1- Clonez ce référentiel sur votre ordinateur local. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2- Installez les dépendances en utilisant la commande suivante :  `npm install`
 
-### `npm run eject`
+3- Démarrez l'application en utilisant la commande : `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4- Accédez à l'application dans votre navigateur en ouvrant [http://localhost:3000].
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5- Connectez-vous en tant qu'administrateur pour accéder au tableau de bord.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6- Commencez à rédiger et à publier des articles sur le blog !
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# RheumaCare-TestFront" 

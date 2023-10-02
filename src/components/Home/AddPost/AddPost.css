@@ -1,0 +1,49 @@
+/* style.css */
+
+.addPost-wrap {
+  padding: 20px;
+  /* border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.addPost-wrap h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: space-between;
+}
+
+.input-group input[type="text"],
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+ .buttonadd {
+  background-color: #0080ff;
+  color: #fff;
+  border: none;
+  width: 220px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.buttonadd:hover {
+  background-color: #0056b3;
+}
+
